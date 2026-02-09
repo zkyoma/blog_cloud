@@ -137,9 +137,9 @@ spring:
   mail:
     host: smtp.qq.com
     # 邮箱号
-    username: 1693740714@qq.com
+    username: *****
     # 邮箱授权码
-    password: qcahpeenlktscjdi
+    password: *****
     default-encoding: UTF-8
     port: 587
     properties:
@@ -149,4 +149,5 @@ spring:
       socketFactory:
       class: javax.net.ssl.SSLSocketFactory
 ```
+
 
